@@ -5,4 +5,5 @@ mysqli_query($conexion,"INSERT INTO notas(nombre,identificacion,calificacion) VA
 or die("problemas con la conexion en el select" . mysqli_error($conexion));
 mysqli_close($conexion);
 header("Location:registro_notas1.php");
+
 ?>

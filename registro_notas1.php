@@ -76,7 +76,7 @@
                     id=""
                     aria-describedby="helpId"
                     placeholder=""
-                    style="width: 500px;background-color:gray" />
+                    style="width: 500px;border:1px solid black;" />
             </div>
             <div class="mb-3" style="margin-left:660px; margin-top:-85px;">
                 <label class="form-label"><b>IDENTIFICADOR</b></label>
@@ -87,7 +87,7 @@
                     id=""
                     aria-describedby="helpId"
                     placeholder=""
-                    style="width: 300px;background-color:gray;" />
+                    style="width: 300px;border:1px solid black;" />
             </div>
             <div class="mb-3" style="float: right;margin-top: -50px;">
                 <label class="form-label">Calificacion</label>
@@ -112,7 +112,7 @@
 
 <!-----modal de consultar--------->
 <div style="float: right;">
-    <form>
+    <form action="consultar.php" method="post">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
@@ -136,7 +136,7 @@
                             <input
                                 type="text"
                                 class="form-control"
-                                name=""
+                                name="identificacion"
                                 id=""
                                 aria-describedby="helpId"
                                 placeholder="" />
