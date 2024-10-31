@@ -37,19 +37,17 @@
         </thead>
         <tbody>
             <tr class="table table-primary">
-                <td scope="row">MF0950_2: Construcción de páginas web 210
-                </td>
+                <td scope="row" class="modulo">MF0950_2: Construcción de páginas web 210</td>
                 <td>210 horas</td>
                 <td id="demo1"></td>
             </tr>
             <tr class="table table-primary">
-                <td scope="row">MF0951_2: Integración de componentes software en páginas
-                    web</td>
+                <td scope="row"  class="modulo">MF0951_2: Integración de componentes software en páginas web</td>
                 <td>180 horas</td>
                 <td id="demo2"></td>
             </tr>
             <tr class="table table-primary">
-                <td scope="row">MF0952_2: Publicación de páginas web</td>
+                <td scope="row"  class="modulo">MF0952_2: Publicación de páginas web</td>
                 <td>90 horas</td>
                 <td id="demo3"></td>
             </tr>

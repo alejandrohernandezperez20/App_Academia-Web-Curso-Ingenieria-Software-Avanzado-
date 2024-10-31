@@ -1,3 +1,4 @@
+
 function nota() {
     var nota1=0;
     var nota2=0;
@@ -18,10 +19,16 @@ function nota() {
         return true;
     }
 }
+
 function nota2(){
     var notas=Array();
-    var resultado=0;
+    var resultados=0;
     var modulo;
     modulo=document.getElementsByClassName("modulo");
-    console.log(modulo);
+    for(let i=0;i<3;i++){
+        notas[i]=prompt("nota acumulada de "+modulo[i].innerHTML+": ");
+        document.getElementById("demo"+(Number(i)+Number(1))).innerHTML=notas[i];
+    }
+    resultados=(Number(notas[0])+Number(notas[1])+Number(notas[2]))/3;
+    document.getElementById("demo4").innerHTML=resultados.toFixed(2);
 }

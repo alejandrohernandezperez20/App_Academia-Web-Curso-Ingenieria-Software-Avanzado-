@@ -6,12 +6,13 @@ style="border: 2px solid black;background-color:gray;">
   <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
 </svg>
 <h2 style="text-align:center;color:white;">REGISTRO DE PROFESORES</h2>
+<form action="conect_profesores.php" method="post">
 <div class="mb-3">
     <label for="" class="form-label"><b>Nombre del profesor</b></label>
     <input
         type="text"
         class="form-control"
-        name=""
+        name="nombre"
         id=""
         aria-describedby="helpId"
         placeholder=""
@@ -23,7 +24,7 @@ style="border: 2px solid black;background-color:gray;">
     <input
         type="text"
         class="form-control"
-        name=""
+        name="curso"
         id=""
         aria-describedby="helpId"
         placeholder=""
@@ -35,7 +36,7 @@ style="border: 2px solid black;background-color:gray;">
     <input
         type="text"
         class="form-control"
-        name=""
+        name="horario"
         id=""
         aria-describedby="helpId"
         placeholder=""
@@ -47,7 +48,7 @@ style="border: 2px solid black;background-color:gray;">
     <input
         type="text"
         class="form-control"
-        name=""
+        name="telefono"
         id=""
         aria-describedby="helpId"
         placeholder=""
@@ -57,12 +58,12 @@ style="border: 2px solid black;background-color:gray;">
 <div class="mb-3">
     <label for="" class="form-label">OBSERVACION</label>
     <label for="" class="form-label"></label>
-    <textarea class="form-control" name="" id="" rows="3"></textarea>
+    <textarea class="form-control" name="observacion" id="" rows="3"></textarea>
 </div>
-<a href="#"><button type="submit" class="btn btn-primary mb-3">Registrar</button></a>
+<a href="#"><button type="submit"  class="btn btn-primary mb-3">Registrar</button></a>
 <button type="reset" class="btn btn-primary mb-3" style="float: right;">BORRAR</button>
 
-
+</form>
 
 </div>
 <?php include 'log/footer.php'?>

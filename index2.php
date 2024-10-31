@@ -52,6 +52,11 @@
                 <a href="">Olvido su clave</a>
             </form>
         </div>
+
+        <script>
+
+        </script>
+        
         </main>
         <footer>
             <?php include 'log/footer.php'?>
