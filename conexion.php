@@ -34,24 +34,24 @@
             </button>
         </div>
     </nav>
-
-    <?php
-    $db_host = "localhost";
-    $db_nombre = "academia";
-    $db_usuario = "root";
-    $db_contra = "";
-    $conexion = mysqli_connect($db_host, $db_usuario, $db_contra, $db_nombre);
-    $consulta = "SELECT * FROM notas";
-    $resultados = mysqli_query($conexion, $consulta);
-    echo "<div class='container' style='margin-top:6%;'>";
-    while (($fila = mysqli_fetch_row($resultados)) == true) {
-        echo "<div class='row align-items-end'>";
-        echo "<div class='col-4'><b>Nombre del alumno:</b> " . $fila[0] . "</div>";
-        echo "<div class='col-4'><b>Identificacion:</b> " . $fila[1] . "</div> ";
-        echo "<div class='col-4'><b>Calificacion:</b> " . $fila[2] . "</div></div><hr>";
-    }
-    echo "</div>";
-    /*$fila=mysqli_fetch_row($resultados);
+    <div class='container' style='margin-top:6%;'>
+        <?php
+        $db_host = "localhost";
+        $db_nombre = "academia";
+        $db_usuario = "root";
+        $db_contra = "";
+        $conexion = mysqli_connect($db_host, $db_usuario, $db_contra, $db_nombre);
+        $consulta = "SELECT * FROM notas";
+        $resultados = mysqli_query($conexion, $consulta);
+        while (($fila = mysqli_fetch_row($resultados)) == true) {
+            echo "<div class='row align-items-end'>";
+            echo "<div class='col-4'><b>Nombre del alumno:</b> " . $fila[0] . "</div>";
+            echo "<div class='col-4'><b>Identificacion:</b> " . $fila[1] . "</div> ";
+            echo "<div class='col-4'><b>Calificacion:</b> " . $fila[2] . "</div></div><hr>";
+        }
+        echo "</div>";
+        mysqli_close($conexion);
+        /*$fila=mysqli_fetch_row($resultados);
         echo $fila[0] . " ";
         echo $fila[1] . " ";
         echo $fila[2] . " <br>";
@@ -65,8 +65,9 @@
         echo $fila[0] . " ";
         echo $fila[1] . " ";
         echo $fila[2] . " ";*/
-    ?>
-    <?php include './log/footer.php'?>
+        ?>
+    </div>
+    <?php include './log/footer.php' ?>
     <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
