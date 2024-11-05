@@ -68,7 +68,7 @@
                 class="form-select form-select-lg"
                 name="curso"
                 id="">
-                <option selected>ELIJA CURSO </option>
+                <option selected value="">ELIJA CURSO </option>
                 <option value="IFCD0110">IFCD0110</option>
                 <option value="IFCTO31P0">IFCTO31P0</option>
                 <option value="IFCT029PO">IFCT029PO</option>
@@ -76,14 +76,14 @@
         </div>
         <div class="mb-3">
             <label class="form-label"><b>HORARIO DE ESTUDIO</b></label><br>
-            <input type="radio" class="form-check-input" name="horario"> <label class="form-label">Mañana</label><br>
-            <input type="radio" class="form-check-input" name="horario"> <label class="form-label">Tarde</label><br>
-            <input type="radio" class="form-check-input" name="horario"> <label class="form-label">Noche</label><br>
+            <input type="radio" class="form-check-input" name="horario" value="mañana"> <label class="form-label">Mañana</label><br>
+            <input type="radio" class="form-check-input" name="horario" value="tarde"> <label class="form-label">Tarde</label><br>
+            <input type="radio" class="form-check-input" name="horario" value="noche"> <label class="form-label">Noche</label><br>
             <div style="margin-left: 30%;margin-top:-11.57%;">
                 <label class="form-label"><b>MODALIDAD</b></label><br>
-                <label class="form-label">Presencial</label> <input type="radio" class="form-check-input" name="modalidad"><br>
-                <label class="form-label">Aula Virtual</label> <input type="radio" class="form-check-input" name="modalidad"><br>
-                <label class="form-label">Mixto</label> <input type="radio" class="form-check-input" name="modalidad"><br>
+                <label class="form-label">Presencial</label> <input  type="radio" value="presencial" class="form-check-input" name="modalidad"><br>
+                <label class="form-label">Aula Virtual</label> <input type="radio" value="aula virtual" class="form-check-input" name="modalidad"><br>
+                <label class="form-label">Mixto</label> <input type="radio" value="mixto" class="form-check-input" name="modalidad"><br>
             </div>
         </div>
         <div class="mb-3" style="float: right;margin-top:-13.4%">
