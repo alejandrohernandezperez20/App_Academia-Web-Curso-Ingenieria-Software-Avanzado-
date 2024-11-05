@@ -39,7 +39,7 @@ style="border: 2px solid black;background-color:gray;">
         name="horario"
         id=""
         aria-describedby="helpId"
-        placeholder="hh:mm a hh:mm"
+        placeholder=""
         style="width: 300px;"
     />
 </div>
