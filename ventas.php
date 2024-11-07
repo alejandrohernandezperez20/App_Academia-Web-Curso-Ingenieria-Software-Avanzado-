@@ -2,7 +2,7 @@
 <div
     class="container nt-3 mt-5"
     style="border: 2px solid black;background-color:gray;">
-    <h2 style="text-align:center;color:darkblue;">INSCRIPCIONES NUEVAS</h2>
+    <h2 style="text-align:center;color:darkblue;">RECIBO ABONO</h2>
     <form action="conect_ventas.php" method="post">
         <div class="mb-3">
             <label for="" class="form-label" style="font-weight: bold;">Fecha</label>
@@ -33,7 +33,7 @@
             <input
                 type="text"
                 class="form-control"
-                name="abo"
+                name="curso"
                 id=""
                 aria-describedby="helpId"
                 placeholder=""
@@ -45,7 +45,7 @@
             <input
                 type="text"
                 class="form-control"
-                name=""
+                name="abono"
                 id=""
                 aria-describedby="helpId"
                 placeholder=""
