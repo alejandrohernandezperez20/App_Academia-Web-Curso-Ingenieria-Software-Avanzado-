@@ -201,7 +201,7 @@ body {
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-xl navbar-dark bg-dark"> <a href="#" class="navbar-brand"><img src="./img/1.png" style="width: 20%;"><b>APPAcademia</b></a>
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark"> <a href="#" class="navbar-brand"><img id="logo" src="./img/1.png" style="width: 20%;"><b>APPAcademia</b></a>
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> <span class="navbar-toggler-icon"></span> </button>
   <!-- Collection of nav links, forms, and other content for toggling -->
   <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">

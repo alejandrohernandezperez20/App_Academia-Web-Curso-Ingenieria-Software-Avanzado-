@@ -60,11 +60,17 @@
             </form>';
             $consulta = 'SELECT * FROM profesores';
             $resultados = mysqli_query($conexion, $consulta);
+            echo "<div style='margin-top:5%;'>";
             while (($fila = mysqli_fetch_row($resultados)) == true) {
                 echo "<div class='row align-items-end'>";
                 echo "<div class='col-2'><b>Nombre:</b> " . $fila[0] . "</div>";
+                echo "<div class='col-2'><b>Curso:</b> " . $fila[1] . "</div>";
+                echo "<div class='col-2'><b>Horario:</b> " . $fila[2] . "</div>";
+                echo "<div class='col-2'><b>Telefono:</b> " . $fila[3] . "</div>";
+                echo "<div class='col-4'><b>Observacion:</b> " . $fila[4] . "</div>";
                 echo "</div><hr>";
             }
+            echo "</div>";
         }
         else if ($_REQUEST['seleccionado'] == "alumno") {
             echo '<nav
@@ -100,11 +106,34 @@
             </form>';
             $consulta = 'SELECT * FROM inscripciones';
             $resultados = mysqli_query($conexion, $consulta);
+            echo "<div style='margin-top:5%;'>";
+            echo "<table style='width:100%'>";
+            echo "<tr >";
+                echo "<th >Nombre</th>";
+                echo "<th>Seguimiento</th>";
+                echo "<th>DNI</th>";
+                echo "<th>Direccion</th>";
+                echo "<th>telefono</th>";
+                echo "<th>curso</th>";
+                echo "<th>horario</th>";
+                echo "<th>modalidad</th>";
+                echo "<th>correo</th>";
+            echo "<tr/>";
             while (($fila = mysqli_fetch_row($resultados)) == true) {
-                echo "<div class='row align-items-end'>";
-                echo "<div class='col-2'><b>Nombre:</b> " . $fila[0] . "</div>";
-                echo "</div><hr>";
+                echo "<tr style='border-bottom: 1px solid rgb(161, 159, 159)'>";
+                echo "<td >" . $fila[0] . "</td>";
+                echo "<td >" . $fila[1] . "</td>";
+                echo "<td >" . $fila[2] . "</td>";
+                echo "<td >" . $fila[3] . "</td>";
+                echo "<td >" . $fila[4] . "</td>";
+                echo "<td >" . $fila[5] . "</td>";
+                echo "<td >" . $fila[6] . "</td>";
+                echo "<td >" . $fila[7] . "</td>";
+                echo "<td >" . $fila[8] . "</td>";
+                echo "<tr/>";
             }
+            echo "</table>";
+            echo "</div>";
         } else {
             echo '<nav
             class="navbar navbar-expand-sm navbar-light bg-danger">

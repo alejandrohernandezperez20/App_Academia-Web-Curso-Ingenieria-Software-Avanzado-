@@ -1,7 +1,7 @@
 <div
   style="background-color:darkred;padding:30px;margin-top:300px">
   <!-- Button trigger modal -->
-  <a href="http://localhost/proyecto3/index2.php"><button type="reset" class="btn btn-primary">Salir</button></a>
+  <a href="http://localhost/proyecto3/inicio.php"><button type="reset" class="btn btn-primary">Salir</button></a>
   <div style="float: right;">
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">

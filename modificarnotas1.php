@@ -4,9 +4,9 @@ $conexion = mysqli_connect("localhost", "root", "", "academia");
 $registro = mysqli_query($conexion, "SELECT * FROM notas WHERE identificacion='$_REQUEST[identificacion]'") or die("problema en el select" . mysqli_error($conexion));
 if ($reg = mysqli_fetch_array($registro)) {
 ?>
-    <form action="modificar3.php" method="post">
-        INGRESAR IDENTIFICADOR A MODIFICAR:<br><br>
-        <input type="text" name="nota_nueva" value="<?php echo $reg['identificacion'] ?>"><br><br>
+    <form action="modificarnotas2.php" method="post">
+        INGRESAR NOTAS A MODIFICAR:<br><br>
+        <input type="text" name="nota_nueva" value="<?php echo $reg['calificacion'] ?>"><br><br>
         <input type="hidden" name="nota" value="<?php echo $reg['identificacion'] ?>">
         <input type="submit" value="modificar">
     </form>
