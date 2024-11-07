@@ -29,3 +29,10 @@ CREATE TABLE inscripciones(
     modalidad VARCHAR(30),
     correo VARCHAR(30)
 );
+
+CREATE TABLE ventas(
+    fecha DATE,
+    cliente VARCHAR(30),
+    curso VARCHAR(30),
+    abono DECIMAL(30,2)
+);
