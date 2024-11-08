@@ -36,3 +36,17 @@ CREATE TABLE ventas(
     curso VARCHAR(30),
     abono int(20)
 );
+
+CREATE TABLE mensaje(
+    fecha DATE,
+    nombre VARCHAR(30),
+    asunto VARCHAR(40),
+    mensaje VARCHAR(500)
+);
+
+CREATE TABLE mensaje2(
+    fecha DATE,
+    nombre VARCHAR(30),
+    asunto VARCHAR(40),
+    mensaje VARCHAR(500)
+);
