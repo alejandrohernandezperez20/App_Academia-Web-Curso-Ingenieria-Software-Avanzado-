@@ -19,12 +19,11 @@
     <input class="form-control" type="text" name="asunto"><br>
     <label class="form-label">Mensaje:</label><br>
     <textarea class="form-control" name="mensaje" id=""></textarea><br>
-    <button class="btn btn-primary" type="submit" onclick="mensaje()">ENVIAR MENSAJE</button>
-    <button class="btn btn-primary" type="reset">BORRAR</button>
+    <button class="btn btn-danger" type="submit" onclick="mensaje()">ENVIAR MENSAJE</button>
+    <button class="btn btn-danger" type="reset">BORRAR</button>
 </form>
-
-
-<div style="margin-top: 5%;">
+</div>
+<div style="margin-top: 7%;">
 
 <?php
 $db_host="localhost";
@@ -36,12 +35,11 @@ mysqli_set_charset($conexion,"utf8");
 $consulta="SELECT * FROM mensaje2";
 $resultado=mysqli_query($conexion,$consulta);
 while(($file=mysqli_fetch_row($resultado))==true){
-    echo $file[0] . " ";
-    echo $file[1] . " ";
-    echo $file[2] . " ";
-    echo $file[3] . " ";
+    echo '<img src="../img/mail.png" class="logo-correo"/><h5>Mensaje del Profesor</h5>';
+    echo  '<span class="asunto-horario">' . $file[0] . '</span>';
+    echo  '<span class="asunto"><b>Asunto: </b>' . $file[2] . "<hr>";
+    echo $file[3] . "<br><hr>";
 }
 ?>
-</div>
 </div>
 </div>

@@ -20,3 +20,18 @@
     width: 30%;
 }
 
+.logo-correo{
+    width: 6%;
+    height: 5%;
+    float: left;
+    margin-top: -2%;
+}
+
+.asunto-horario{
+    font-size: 13px;
+    float: right;
+}
+
+.asunto{
+    font-size: 17px;
+}

@@ -1,13 +1,15 @@
-<?php include '../profesor.html' ?>
+<?php include '../administrador.html' ?>
 <script>
     document.getElementById("logo").setAttribute("src","../img/1.png");
 </script>
-<script src="../js/js2.js"></script>
 <link rel="stylesheet" href="../css/mensaje.css">
+<script src="../js/js2.js"></script>
 <div
     class="container"
     style="margin-top: 5%;"
->
+>    
+<img src="../img/mail.png" id="mail-imagen"/>
+<div id="contenedor-mensajeria">
 <form action="men2.php" method="post" id="formulario-mensaje">
     <label class="form-label">Fecha:</label><br>
     <input class="form-control" type="date" name="fecha"><br>
@@ -17,11 +19,12 @@
     <input class="form-control" type="text" name="asunto"><br>
     <label class="form-label">Mensaje:</label><br>
     <textarea class="form-control" name="mensaje" id=""></textarea><br>
-    <button class="btn btn-primary" type="submit" onclick="mensaje()">ENVIAR MENSAJE</button>
-    <button class="btn btn-primary" type="reset">BORRAR</button>
-
+    <button class="btn btn-danger" type="submit" onclick="mensaje()">ENVIAR MENSAJE</button>
+    <button class="btn btn-danger" type="reset">BORRAR</button>
 </form>
-<div style="margin-top: 5%;">
+</div>
+<div style="margin-top: 7%;">
+
 <?php
 $db_host="localhost";
 $db_nombre="academia";
@@ -32,10 +35,10 @@ mysqli_set_charset($conexion,"utf8");
 $consulta="SELECT * FROM mensaje";
 $resultado=mysqli_query($conexion,$consulta);
 while(($file=mysqli_fetch_row($resultado))==true){
-    echo $file[0] . " ";
-    echo $file[1] . " ";
-    echo $file[2] . " ";
-    echo $file[3] . " ";
+    echo '<img src="../img/mail.png" class="logo-correo"/><h5>Mensaje del Admin</h5>';
+    echo  '<span class="asunto-horario">' . $file[0] . '</span>';
+    echo  '<span class="asunto"><b>Asunto: </b>' . $file[2] . "<hr>";
+    echo $file[3] . "<br><hr>";
 }
 ?>
 </div>
