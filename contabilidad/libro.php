@@ -47,7 +47,7 @@
                                         <input
                                             type="date"
                                             class="form-control"
-                                            name=""
+                                            name="date1"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -59,7 +59,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="cuenta1"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -70,7 +70,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="debe1"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -81,7 +81,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="haber1"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -95,7 +95,7 @@
                                         <input
                                             type="date"
                                             class="form-control"
-                                            name=""
+                                            name="date2"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -107,7 +107,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="cuenta2"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -118,7 +118,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="debe2"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -129,7 +129,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="haber2"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -143,7 +143,7 @@
                                         <input
                                             type="date"
                                             class="form-control"
-                                            name=""
+                                            name="date3"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -155,7 +155,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="cuenta3"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -166,7 +166,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="debe3"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -177,7 +177,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="haber3"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -191,7 +191,7 @@
                                         <input
                                             type="date"
                                             class="form-control"
-                                            name=""
+                                            name="date4"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -203,7 +203,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="cuenta4"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -214,7 +214,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="debe4"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -225,7 +225,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="haber4"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -239,7 +239,7 @@
                                         <input
                                             type="date"
                                             class="form-control"
-                                            name=""
+                                            name="date5"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -251,7 +251,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="cuenta5"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -262,7 +262,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="debe5"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -273,7 +273,7 @@
                                         <input
                                             type="text"
                                             class="form-control"
-                                            name=""
+                                            name="haber5"
                                             id=""
                                             aria-describedby="helpId"
                                             placeholder="" />
@@ -296,29 +296,7 @@
                                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         REPORTE
                                     </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-xl">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-clipboard-data" viewBox="0 0 16 16">
-                                                            <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0z" />
-                                                            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                                                            <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                                                        </svg>LIBRO DIARIO SEMANAL</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <?php
-                                                    ?>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
-                                                    <button type="button" class="btn btn-primary" onclick="window.print()">IMPRIMIR</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </td>
                                 <td>
                                     <button type="submit" class="btn btn-danger">REGISTRAR</button>
@@ -326,6 +304,70 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-clipboard-data" viewBox="0 0 16 16">
+                                        <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0z" />
+                                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                                    </svg>LIBRO DIARIO SEMANAL</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <?php
+                                $db_host = "localhost";
+                                $db_nombre = "academia";
+                                $db_usuario = "root";
+                                $db_contra = "";
+                                $conexion = mysqli_connect($db_host, $db_usuario, $db_contra, $db_nombre);
+                                mysqli_set_charset($conexion, "utf8");
+                                $inyect_sql = "SELECT * FROM libro_diario";
+                                $resultado = mysqli_query($conexion, $inyect_sql);
+                                while (($file = mysqli_fetch_row($resultado)) == true) {
+                                    echo "<div style='margin-left:3%;margin-top:10px'>";
+                                    echo "<h4>";
+                                    echo 'FECHA:';
+                                    echo '</h4>';
+                                    for ($i = 0; $i < 30; $i=$i+6) {
+                                        $date= date_create($file[$i]);
+                                        echo date_format($date,"j/n/Y") . '<br>';
+                                    }
+                                    echo "</div><div style='margin-left:20%;margin-top:-157px'>";
+                                    echo "<h4>";
+                                    echo 'CUENTA:';
+                                    echo '</h4>';
+                                    for ($i = 1; $i < 30; $i=$i+6) {
+                                        echo $file[$i] . '<br>';
+                                    }
+                                    echo "</div><div style='margin-left:40%;margin-top:-157px'>";
+                                    echo "<h4>";
+                                    echo 'DEBE:';
+                                    echo '</h4>';
+                                    for ($i = 2; $i < 30; $i=$i+6) {
+                                        echo $file[$i] . '<br>';
+                                    }
+                                    echo "</div><div style='margin-left:60%;margin-top:-157px'>";
+                                    echo "<h4>";
+                                    echo 'HABER:';
+                                    echo '</h4>';
+                                    for ($i = 3; $i < 30; $i=$i+6) {
+                                        echo $file[$i] . '<br>';
+                                    }
+                                    echo '</div><hr>';
+                                }
+                                mysqli_close($conexion);
+                                ?>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                <button type="button" class="btn btn-primary" onclick="window.print()">IMPRIMIR</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>

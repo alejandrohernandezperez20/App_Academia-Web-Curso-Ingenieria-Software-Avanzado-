@@ -36,9 +36,10 @@ $consulta="SELECT * FROM mensaje";
 $resultado=mysqli_query($conexion,$consulta);
 while(($file=mysqli_fetch_row($resultado))==true){
     echo '<img src="../img/mail.png" class="logo-correo"/><h5>Mensaje del Admin</h5>';
-    echo  '<span class="asunto-horario">' . $file[0] . '</span>';
+    $date=date_create($file[0]);
+    echo  '<span class="asunto-horario">' . date_format($date,"j/n/Y") . '</span>';
     echo  '<span class="asunto"><b>Asunto: </b>' . $file[2] . "<hr>";
-    echo $file[3] . "<br><hr>";
+    echo $file[3] . "<br><hr><br><br>";
 }
 ?>
 </div>
