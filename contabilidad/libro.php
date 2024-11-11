@@ -286,7 +286,7 @@
 
                                 </td>
                                 <td>
-                                    <a href="">
+                                    <a href="../administrador.html">
                                         <button type="button" class="btn btn-danger">REGRESAR</button>
                                     </a>
                                 </td>
@@ -332,7 +332,7 @@
                                     echo "<h4>";
                                     echo 'FECHA:';
                                     echo '</h4>';
-                                    for ($i = 0; $i < 30; $i=$i+6) {
+                                    for ($i = 0; $i < count($file); $i=$i+6) {
                                         $date= date_create($file[$i]);
                                         echo date_format($date,"j/n/Y") . '<br>';
                                     }
@@ -340,21 +340,21 @@
                                     echo "<h4>";
                                     echo 'CUENTA:';
                                     echo '</h4>';
-                                    for ($i = 1; $i < 30; $i=$i+6) {
+                                    for ($i = 1; $i < count($file); $i=$i+6) {
                                         echo $file[$i] . '<br>';
                                     }
                                     echo "</div><div style='margin-left:40%;margin-top:-157px'>";
                                     echo "<h4>";
                                     echo 'DEBE:';
                                     echo '</h4>';
-                                    for ($i = 2; $i < 30; $i=$i+6) {
+                                    for ($i = 2; $i < count($file); $i=$i+6) {
                                         echo $file[$i] . '<br>';
                                     }
                                     echo "</div><div style='margin-left:60%;margin-top:-157px'>";
                                     echo "<h4>";
                                     echo 'HABER:';
                                     echo '</h4>';
-                                    for ($i = 3; $i < 30; $i=$i+6) {
+                                    for ($i = 3; $i < count($file); $i=$i+6) {
                                         echo $file[$i] . '<br>';
                                     }
                                     echo '</div><hr>';

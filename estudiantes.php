@@ -3,10 +3,10 @@
 		class="container"
 		style="margin-top: 5%;">
 
-		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalEliminar" data-bs-whatever="@mdo">ELIMINAR ESTUDIANTE</button>
-		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalModificarId" data-bs-whatever="@fat">MODIFICAR IDENTIFICADOR</button>
-		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalModificarNotas" data-bs-whatever="@getbootstrap">MODIFICAR NOTAS</button>
-		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalModificarNombre" data-bs-whatever="@getbootstrap">MODIFICAR NOMBRE</button>
+		<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalEliminar" data-bs-whatever="@mdo">ELIMINAR ESTUDIANTE</button>
+		<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalModificarId" data-bs-whatever="@fat">MODIFICAR IDENTIFICADOR</button>
+		<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalModificarNotas" data-bs-whatever="@getbootstrap">MODIFICAR NOTAS</button>
+		<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalModificarNombre" data-bs-whatever="@getbootstrap">MODIFICAR NOMBRE</button>
 
 		<div class="modal fade" id="exampleModalEliminar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">

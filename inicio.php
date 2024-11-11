@@ -1,4 +1,4 @@
-<body style="background-image:url(./img/1.png);background-size: 800px;background-repeat:no-repeat;background-position: 50% 10%;">
+<body style="background-image:url(./img/inicio.gif);background-size:cover;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;">
         <header>
             <?php include 'log/header.php'?>
         </header>
