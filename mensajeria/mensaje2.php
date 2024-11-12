@@ -1,4 +1,4 @@
-<?php include '../administrador.html' ?>
+<?php include '../profesor.html' ?>
 <script>
     document.getElementById("logo").setAttribute("src","../img/1.png");
 </script>

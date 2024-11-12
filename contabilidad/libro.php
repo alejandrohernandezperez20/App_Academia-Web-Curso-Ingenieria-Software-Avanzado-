@@ -286,7 +286,7 @@
 
                                 </td>
                                 <td>
-                                    <a href="../administrador.html">
+                                    <a href="../auditoria/auditoria.php">
                                         <button type="button" class="btn btn-danger">REGRESAR</button>
                                     </a>
                                 </td>

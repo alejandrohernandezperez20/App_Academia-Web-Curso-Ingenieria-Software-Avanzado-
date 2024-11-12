@@ -24,7 +24,7 @@
     $db_usuario = "root";
     $db_contra = "";
     $conexion = mysqli_connect($db_host, $db_usuario, $db_contra, $db_nombre);
-   
+
     if (isset($_REQUEST['seleccionado'])) {
         if ($_REQUEST['seleccionado'] == "profesor") {
             echo '<nav
@@ -71,8 +71,7 @@
                 echo "</div><hr>";
             }
             echo "</div>";
-        }
-        else if ($_REQUEST['seleccionado'] == "alumno") {
+        } else if ($_REQUEST['seleccionado'] == "alumno") {
             echo '<nav
             class="navbar navbar-expand-sm navbar-light bg-danger">
             <div class="container">
@@ -109,15 +108,15 @@
             echo "<div style='margin-top:5%;'>";
             echo "<table style='width:100%'>";
             echo "<tr >";
-                echo "<th >Nombre</th>";
-                echo "<th>Seguimiento</th>";
-                echo "<th>DNI</th>";
-                echo "<th>Direccion</th>";
-                echo "<th>telefono</th>";
-                echo "<th>curso</th>";
-                echo "<th>horario</th>";
-                echo "<th>modalidad</th>";
-                echo "<th>correo</th>";
+            echo "<th >Nombre</th>";
+            echo "<th>Seguimiento</th>";
+            echo "<th>DNI</th>";
+            echo "<th>Direccion</th>";
+            echo "<th>telefono</th>";
+            echo "<th>curso</th>";
+            echo "<th>horario</th>";
+            echo "<th>modalidad</th>";
+            echo "<th>correo</th>";
             echo "<tr/>";
             while (($fila = mysqli_fetch_row($resultados)) == true) {
                 echo "<tr style='border-bottom: 1px solid rgb(161, 159, 159)'>";
@@ -203,7 +202,7 @@
     echo "</div>";
     mysqli_close($conexion);
     ?>
-    <?php include './log/footer.php' ?>
+    <?php include '../log/footer.php' ?>
     <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

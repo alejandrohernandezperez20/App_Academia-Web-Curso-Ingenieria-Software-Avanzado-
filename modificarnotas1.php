@@ -10,8 +10,8 @@ if ($reg = mysqli_fetch_array($registro)) {
 <div style="margin-top:10%;margin-left:30%;border:2px solid black;background-color:burlywood;width:30%;padding:1%">
     <form action="modificarnotas2.php" method="post">
         <span> INGRESAR NOTAS A MODIFICAR:</span><br><br>
-        <input type="text" class="form-control" style="margin-bottom: -2%;" name="nota_nueva" value="<?php echo $reg['identificacion'] ?>"><br><br>
-        <input type="hidden" name="nota" value="<?php echo $reg['identificacion'] ?>">
+        <input type="text" class="form-control" style="margin-bottom: -2%;" name="nota_nueva" value="<?php echo $reg['calificacion'] ?>"><br><br>
+        <input type="hidden" name="nota" value="<?php echo $reg['calificacion'] ?>">
         <input type="submit" class="btn btn-primary" value="Modificar">
     </form>
 </div>

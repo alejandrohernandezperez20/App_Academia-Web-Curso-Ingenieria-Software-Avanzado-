@@ -37,7 +37,7 @@
                 <div class="mb-3">
                     <label for="" class="form-label">CLAVE</label>
                     <input
-                        type="text"
+                        type="password"
                         name="password"
                         id=""
                         class="form-control"
@@ -47,7 +47,7 @@
                 </div>
                 <button value="entrar" type="button" class="btn btn-danger" onclick="Login()">ENTRAR</button>
                 <button type="reset" class="btn btn-danger">BORRAR</button><br>
-                <a href="">Olvido su clave</a>
+                <a href="#" style="color: darkblue;">Olvido su clave</a>
             </form>
         </div>
 
@@ -58,8 +58,11 @@
                 if (usuario == "admin" && password == "1234") {
                     window.location = "inicio.php";
                 }
-                if (usuario == "agente" && password == "007") {
+                else if (usuario == "agente" && password == "007") {
                     window.location = "inicio.php";
+                }
+                else if (usuario == "directo" && password == "directo") {
+                    window.location = "clave.php";
                 }
             }
         </script>

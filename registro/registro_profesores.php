@@ -1,4 +1,4 @@
-<?php include 'log/header.php'?>
+<?php include '../log/header.php'?>
 <div
 class="container nt-3 mt-5"
 style="border: 2px solid black;background-color:gray;">
@@ -66,7 +66,7 @@ style="border: 2px solid black;background-color:gray;">
 </form>
 
 </div>
-<?php include 'log/footer.php'?>
+<?php include '../log/footer.php'?>
 <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

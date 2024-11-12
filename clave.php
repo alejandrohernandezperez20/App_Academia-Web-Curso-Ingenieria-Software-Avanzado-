@@ -27,7 +27,7 @@
 <link href="css/style.css" rel="stylesheet">
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="wrapper fadeInDown"  style="margin-top: 200px;margin-left: 500px;width: 280px;height:240px;border: 2px solid black;text-align: center;border-radius: 20px;background-color: green;">
+<div class="wrapper fadeInDown" style="margin-top: 200px;margin-left: 500px;width: 280px;height:270px;border: 2px solid black;text-align: center;border-radius: 20px;background-color: green;">
   <div id="formContent">
     <!-- Tabs Titles -->
 
@@ -39,54 +39,33 @@
 	 
     </div>
 
-    <!-- Login Form -->
-	<form name="login" style="align-content:center";>
-       
-            <tr>
-                <th scope="row"><h2>Usuario</h2></th>
-                <td>
-                    <span class="cnt">
-                        <input style="width: 250px;margin-left: 20px;" name="usuario" type="text" class="Input form-control" value="" size="20" />
-                    </span>
-                </td>
-            </tr>
-            
-
-
-			
-			<tr>
-                <th scope="row"><h2>Clave</h2></th>
-                <td>
-                    <span class="cnt">
-                        <input style="width: 250px;margin-left: 20px;margin-bottom:2%;" name="password" type="text" class="Input form-control" value="" size="20" />
-                    </span>
-                </td>
-            </tr>
-            
-
-
-
-
-
-                    <span class="cnt">
-                        <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton btn btn-danger" />
-                    </span>
-                </td>
-            </tr>
-
-
-
-
-
-
-
-            <tr>
-                <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton btn btn-danger" /></th>
-            </tr>
-        </table>
-    </form>
-
-
+    <form name="login">
+                <div class="mb-3">
+                    <label for="" class="form-label">USUARIO</label>
+                    <input
+                        type="text"
+                        name="usuario"
+                        id=""
+                        class="form-control"
+                        placeholder=""
+                        style="width: 250px;margin-left: 20px;"
+                        value="" />
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">CLAVE</label>
+                    <input
+                        type="password"
+                        name="password"
+                        id=""
+                        class="form-control"
+                        placeholder=""
+                        style="width: 250px;margin-left: 20px;"
+                        value="" />
+                </div>
+                <button value="entrar" type="button" class="btn btn-danger" onclick="Login()">ENTRAR</button>
+                <button type="reset" class="btn btn-danger">BORRAR</button><br>
+                <a href="#" style="color: darkblue;">Olvido su clave</a>
+            </form>
 
 
 	
@@ -118,9 +97,11 @@
 			
 			
             if (usuario == "admin" && password == "1234") {
-                window.location = "estudiantes.php";
+                window.location = "administrador.html";
             }
-			
+            else if (usuario == "profesor" && password == "007") {
+                window.location = "profesor.html";
+            }			
         }
 
 

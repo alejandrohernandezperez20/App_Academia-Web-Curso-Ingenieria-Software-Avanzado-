@@ -1,6 +1,6 @@
-<?php include 'log/header.php' ?>
-<script src="js/js2.js"></script>
-<script src="js/js.js"></script><!---se coloco el script para la funcion--->
+<?php include '../log/header.php' ?>
+<script src="../js/js2.js"></script>
+<script src="../js/js.js"></script><!---se coloco el script para la funcion--->
 <!---botones------>
 
 <!---se realizo los botones los cuales vienen de la pagina de nota--->
@@ -155,7 +155,7 @@
 </div>
 </form>
 <footer style="margin-top: 400px;">
-    <?php include 'log/footer.php' ?>
+    <?php include '../log/footer.php' ?>
 </footer>
 <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
