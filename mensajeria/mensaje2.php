@@ -1,6 +1,7 @@
 <?php include '../profesor.html' ?>
 <script>
     document.getElementById("logo").setAttribute("src","../img/1.png");
+    document.getElementById("avatar").setAttribute("src","../img/profesor.jpg");
 </script>
 <link rel="stylesheet" href="../css/mensaje.css">
 <script src="../js/js2.js"></script>

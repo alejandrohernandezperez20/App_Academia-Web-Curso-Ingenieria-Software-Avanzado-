@@ -1,6 +1,7 @@
 <?php include '../administrador.html' ?>
 <script>
     document.getElementById("logo").setAttribute("src","../img/1.png");
+    document.getElementById("avatar").setAttribute("src","../img/admin.jfif");
 </script>
 <div
     class="container"
