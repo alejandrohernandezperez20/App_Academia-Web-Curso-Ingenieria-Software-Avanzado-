@@ -26,7 +26,7 @@
     <link href="css/style.css" rel="stylesheet">
     <!------ Include the above in your HEAD tag ---------->
 
-    <div class="wrapper fadeInDown" style="margin-top: 200px;margin-left: 500px;width: 280px;height:270px;border: 2px solid black;text-align: center;border-radius: 20px;background-color: green;">
+    <div class="wrapper fadeInDown" style="margin-top: 250px;margin-left: 450px;width: 289px;height:290px;border: 2px solid black;text-align: center;border-radius: 20px;background-color: blanchedalmond;">
         <div id="formContent">
             <!-- Tabs Titles -->
 
