@@ -107,6 +107,9 @@
             } else if (usuario == "profesor" && password == "007") {
                 window.location = "profesor.html";
             }
+            else if (usuario=="secretaria" && password == "111") {
+                window.location="secretaria.html";
+            }
         }
 
 
