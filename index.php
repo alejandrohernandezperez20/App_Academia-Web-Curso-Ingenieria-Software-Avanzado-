@@ -45,13 +45,19 @@
                         style="width: 250px;margin-left: 20px;"
                         value="" />
                 </div>
-                <button value="entrar" type="button" class="btn btn-danger" onclick="Login()">ENTRAR</button>
+                <button value="entrar" id="entrar"  type="button" class="btn btn-danger" onclick="Login()">ENTRAR</button>
                 <button type="reset" class="btn btn-danger">BORRAR</button><br>
                 <a href="#" style="color: darkblue;">Olvido su clave</a>
             </form>
         </div>
 
         <script>
+            document.addEventListener("keypress",function(event){
+                if(event.key==="Enter"){
+                    event.preventDefault();
+                    document.getElementById("entrar").click();
+                }
+            })
             function Login() {
                 var usuario = document.login.usuario.value;
                 var password = document.login.password.value;

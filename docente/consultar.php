@@ -21,7 +21,7 @@ if ($reg = mysqli_fetch_array($registros)) {
     echo "<br>";
 }
 ?>
-<a href="http://localhost/proyecto3/registro_notas1.php"><button type="button" class="btn btn-danger">ATRAS</button></a>
+<a href="http://localhost/proyecto3/docente/registro_notas1.php"><button type="button" class="btn btn-danger">ATRAS</button></a>
 <br><br>
 </div>
 
