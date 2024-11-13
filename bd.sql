@@ -48,5 +48,14 @@ CREATE TABLE mensaje2(
     fecha DATE,
     nombre VARCHAR(30),
     asunto VARCHAR(40),
-    mensaje VARCHAR(500)
+    mensaje VARCHAR(500),
 );
+
+CREATE TABLE mensaje3(
+    fecha DATE,
+    nombre VARCHAR(30),
+    asunto VARCHAR(40),
+    mensaje VARCHAR(500),
+    alumno INT(1)
+);
+

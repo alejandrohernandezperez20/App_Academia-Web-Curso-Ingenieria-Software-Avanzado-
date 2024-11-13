@@ -1,7 +1,7 @@
-<?php include '../administrador.html' ?>
+<?php include '../secretaria.html' ?>
 <script>
     document.getElementById("logo").setAttribute("src", "../img/1.png");
-    document.getElementById("avatar").setAttribute("src","../img/admin.jfif");
+    document.getElementById("avatar").setAttribute("src","../img/profesor.jpg");
 </script>
 <div
     class="container"
