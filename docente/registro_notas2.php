@@ -37,17 +37,17 @@
         </thead>
         <tbody>
             <tr class="table table-primary">
-                <td scope="row" class="modulo">MF0950_2: Construcción de páginas web 210</td>
+                <td scope="row" class="modulo">MF0750_1: Construcción de orientacion a objetos</td>
                 <td>210 horas</td>
                 <td id="demo1"></td>
             </tr>
             <tr class="table table-primary">
-                <td scope="row"  class="modulo">MF0951_2: Integración de componentes software en páginas web</td>
+                <td scope="row"  class="modulo">MF0751_2: Creacion de funciones en clases</td>
                 <td>180 horas</td>
                 <td id="demo2"></td>
             </tr>
             <tr class="table table-primary">
-                <td scope="row"  class="modulo">MF0952_2: Publicación de páginas web</td>
+                <td scope="row"  class="modulo">MF0752_3: Publicación de páginas web java</td>
                 <td>90 horas</td>
                 <td id="demo3"></td>
             </tr>
@@ -110,7 +110,7 @@
 
 <!-----modal de consultar--------->
 <div style="float: right;">
-    <form action="consultar.php" method="post">
+    <form action="consultar2.php" method="post">
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">

@@ -8,7 +8,7 @@
     <h2 style="text-align:center;color:darkblue;">INSCRIPCIONES NUEVAS</h2>
     <form action="conect_alumno.php" method="post">
         <div class="mb-3">
-            <div class="mb-3" style="float:right;margin-top:-9%;">
+            <div class="mb-3" style="float:right;margin-top:-7%;">
                 <label for="" class="form-label"><b>Nº Seguimiento</b></label>
                 <input
                     type="text"
@@ -29,7 +29,7 @@
                 placeholder=""
                 style="width: 300px;" />
         </div>
-        <div class="mb-3" style="float:right;margin-top:-9%;">
+        <div class="mb-3" style="float:right;margin-top:-7%;">
             <label for="" class="form-label"><b>DNI</b></label>
             <input
                 type="text"
@@ -51,7 +51,7 @@
                 placeholder=""
                 style="width: 300px;" />
         </div>
-        <div class="mb-3" style="float:right;margin-top:-9%;">
+        <div class="mb-3" style="float:right;margin-top:-7%;">
             <label for="" class="form-label"><b>Telefono</b></label>
             <input
                 type="text"
@@ -79,14 +79,14 @@
             <input type="radio" class="form-check-input" name="horario" value="mañana"> <label class="form-label">Mañana</label><br>
             <input type="radio" class="form-check-input" name="horario" value="tarde"> <label class="form-label">Tarde</label><br>
             <input type="radio" class="form-check-input" name="horario" value="noche"> <label class="form-label">Noche</label><br>
-            <div style="margin-left: 30%;margin-top:-11.57%;">
+            <div style="margin-left: 30%;margin-top:-9.5%;">
                 <label class="form-label"><b>MODALIDAD</b></label><br>
                 <label class="form-label">Presencial</label> <input  type="radio" value="presencial" class="form-check-input" name="modalidad"><br>
                 <label class="form-label">Aula Virtual</label> <input type="radio" value="aula virtual" class="form-check-input" name="modalidad"><br>
                 <label class="form-label">Mixto</label> <input type="radio" value="mixto" class="form-check-input" name="modalidad"><br>
             </div>
         </div>
-        <div class="mb-3" style="float: right;margin-top:-13.4%">
+        <div class="mb-3" style="float: right;margin-top:-11.5%">
             <label for="" class="form-label"><b>Correo electronico</b></label>
             <input
                 type="text"

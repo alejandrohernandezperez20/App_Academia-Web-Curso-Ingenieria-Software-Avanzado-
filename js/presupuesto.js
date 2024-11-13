@@ -69,9 +69,3 @@ function presupuesto() {
         }
     linea++;
 }
-
-
-function presupuesto2() {
-    const java=7500,python=6000,c=6000,php=500;   
-    var factura=0,descricion,factura; 
-}
