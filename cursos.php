@@ -26,7 +26,9 @@
     <main>
         <div class="container"
             id="contenedor">
-
+            <center>
+                <h1>CURSOS A TU DISPOSICION</h1>
+            </center>
             <!-- Button trigger modal -->
             <button type="button" id="introduccion" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: -3%;" width="30" height="30" fill="currentColor" class="bi bi-record2-fill" viewBox="0 0 16 16">
