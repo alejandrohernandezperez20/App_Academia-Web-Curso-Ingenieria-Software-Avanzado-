@@ -27,6 +27,7 @@
         <div
             class="container"
             style="margin-top: 3%;">
+            <h1>ESTADO CUENTA</h1>
             <div
                 class="table-responsive">
                 <table
