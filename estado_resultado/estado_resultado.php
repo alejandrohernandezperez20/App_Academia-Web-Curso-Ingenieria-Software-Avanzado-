@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estado de Resultados</title>
+    <script src="../js/estado_resultado.js"></script>
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -83,34 +84,34 @@
 
     <!-- Sub-encabezado -->
     <div class="sub-header">Nombre de la empresa</div>
-    <div class="period">DEL 01.01 2021 AL 31.12.2021 (colocar fecha inicio y fecha fin)<br>EXPRESADO EN (moneda de tu país)</div>
+    <div class="period">DEL 01.01 2021 AL 31.12.2021</div>
 
     <!-- Tabla de estado de resultados -->
     <table>
         <tbody>
             <tr>
                 <td><strong>Venta</strong></td>
-                <td>15,000</td>
+                <td id="venta">0</td>
             </tr>
             <tr>
                 <td>(-) Devoluciones sobre ventas</td>
-                <td>500</td>
+                <td id="devoluciones">0</td>
             </tr>
             <tr>
                 <td>(-) Descuentos sobre ventas</td>
-                <td>250</td>
+                <td id="descuentos">0</td>
             </tr>
             <tr class="highlight">
                 <td><strong>Ventas Netas</strong></td>
-                <td>14,250</td>
+                <td id="ventasNetas">0</td>
             </tr>
             <tr>
                 <td>(-) Costo de Ventas</td>
-                <td>600</td>
+                <td id="costoVentas">0</td>
             </tr>
             <tr class="highlight">
                 <td><strong>Utilidad BRUTA</strong></td>
-                <td>13,650</td>
+                <td id="utilidadBruta">0</td>
             </tr>
             <tr>
                 <td><strong>Gastos Operativos</strong></td>
@@ -118,49 +119,27 @@
             </tr>
             <tr>
                 <td>(-) Gasto de Ventas</td>
-                <td>400</td>
+                <td id="gastoVentas">0</td>
             </tr>
             <tr>
                 <td>Gasto de Administración</td>
-                <td>2,000</td>
+                <td id="gastoAdministracion">0</td>
             </tr>
             <tr class="highlight">
                 <td><strong>Utilidad OPERATIVA</strong></td>
-                <td>11,250</td>
-            </tr>
-            <tr>
-                <td>Ingresos Financieros</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>(-) Gastos Financieros</td>
-                <td>150</td>
-            </tr>
-            <tr>
-                <td>Otros Ingresos</td>
-                <td>40</td>
-            </tr>
-            <tr>
-                <td>(-) Otros Gastos</td>
-                <td>80</td>
-            </tr>
-            <tr class="highlight">
-                <td><strong>Resultado Antes del Impuesto a la Renta</strong></td>
-                <td>11,560</td>
-            </tr>
-            <tr>
-                <td>Impuesto a la Renta (29.5%*)</td>
-                <td>3,410</td>
+                <td id="utilidadOperativa">0</td>
             </tr>
             <tr class="total">
                 <td><strong>Utilidad Neta</strong></td>
-                <td>8,150</td>
+                <td id="utilidadNeta">0</td>
             </tr>
         </tbody>
     </table>
 </div>
+
 <br><br>
 <a href="../auditoria/auditoria.php"><button type="button" class="btn btn-primary">SALIR</button></a>
 <button type="button" class="btn btn-primary"  onclick="window.print()">IMPRIMIR</button>
+<button type="button" class="btn btn-primary"  onclick="resultado()">IMPRIMIR</button>
 </body>
 </html>

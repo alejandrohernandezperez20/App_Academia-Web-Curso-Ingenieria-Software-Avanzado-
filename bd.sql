@@ -41,7 +41,8 @@ CREATE TABLE mensaje(
     fecha DATE,
     nombre VARCHAR(30),
     asunto VARCHAR(40),
-    mensaje VARCHAR(500)
+    mensaje VARCHAR(500),
+    propietario VARCHAR(30),
 );
 
 CREATE TABLE mensaje2(
@@ -49,6 +50,7 @@ CREATE TABLE mensaje2(
     nombre VARCHAR(30),
     asunto VARCHAR(40),
     mensaje VARCHAR(500),
+    propietario VARCHAR(30),
 );
 
 CREATE TABLE mensaje3(
@@ -56,6 +58,14 @@ CREATE TABLE mensaje3(
     nombre VARCHAR(30),
     asunto VARCHAR(40),
     mensaje VARCHAR(500),
-    alumno INT(1)
+    propietario VARCHAR(30),
+);
+
+CREATE TABLE notificaciones(
+    fecha DATE,
+    nombre VARCHAR(30),
+    asunto VARCHAR(40),
+    mensaje VARCHAR(500),
+    propietario VARCHAR(30),
 );
 

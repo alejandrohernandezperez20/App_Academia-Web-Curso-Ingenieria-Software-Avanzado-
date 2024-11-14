@@ -17,6 +17,7 @@
     <input class="form-control" type="text" name="asunto"><br>
     <label class="form-label">Mensaje:</label><br>
     <textarea class="form-control" name="mensaje" id=""></textarea><br>
+    <input class="form-control" type="text" name="propietario" value="secretaria" hidden>
     <button class="btn btn-danger" type="submit" onclick="mensaje()">ENVIAR MENSAJE</button>
     <button class="btn btn-danger" type="reset">BORRAR</button>
 </form>
@@ -33,12 +34,16 @@ mysqli_set_charset($conexion,"utf8");
 $consulta="SELECT * FROM mensaje2";
 $resultado=mysqli_query($conexion,$consulta);
 while(($file=mysqli_fetch_row($resultado))==true){
-    echo '<img src="../img/mail.png" class="logo-correo"/><h5>Mensaje del Profesor</h5>';
-    $date=date_create($file[0]);
-    echo  '<span class="asunto-horario">' . date_format($date,"j/n/Y") . '</span>';
-    echo  '<span class="asunto"><b>Asunto: </b>' . $file[2] . "<hr>";
-    echo $file[3] . "<br><hr><br><br>";
+    if(strtolower($file[1])=="secretaria"){
+        echo '<img src="../img/mail.png" class="logo-correo"/><h5>Mensaje del ' . strtolower($file[4]) .'</h5>';
+        $date=date_create($file[0]);
+        echo  '<span class="asunto-horario">' . date_format($date,"j/n/Y") . '</span>';
+        echo  '<span class="asunto"><b>Asunto: </b>' . $file[2] . "<hr>";
+        echo $file[3] . "<br><hr><br><br>";
+    }
 }
+
+
 ?>
 </div>
 </div>

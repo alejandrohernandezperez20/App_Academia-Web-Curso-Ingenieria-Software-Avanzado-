@@ -110,6 +110,9 @@
             else if (usuario=="secretaria" && password == "111") {
                 window.location="secretaria.html";
             }
+            else if (usuario=="alumno" && password == "12") {
+                window.location="alumno.html";
+            }
         }
 
 
