@@ -31,7 +31,7 @@ $db_usuario="root";
 $db_contra="";
 $conexion=mysqli_connect($db_host,$db_usuario,$db_contra,$db_nombre);
 mysqli_set_charset($conexion,"utf8");
-$consulta="SELECT * FROM mensaje2";
+$consulta="SELECT * FROM mensaje";
 $resultado=mysqli_query($conexion,$consulta);
 while(($file=mysqli_fetch_row($resultado))==true){
     if(strtolower($file[1])=="secretaria"){

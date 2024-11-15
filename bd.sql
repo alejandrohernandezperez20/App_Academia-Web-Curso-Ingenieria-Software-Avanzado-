@@ -44,28 +44,3 @@ CREATE TABLE mensaje(
     mensaje VARCHAR(500),
     propietario VARCHAR(30),
 );
-
-CREATE TABLE mensaje2(
-    fecha DATE,
-    nombre VARCHAR(30),
-    asunto VARCHAR(40),
-    mensaje VARCHAR(500),
-    propietario VARCHAR(30),
-);
-
-CREATE TABLE mensaje3(
-    fecha DATE,
-    nombre VARCHAR(30),
-    asunto VARCHAR(40),
-    mensaje VARCHAR(500),
-    propietario VARCHAR(30),
-);
-
-CREATE TABLE notificaciones(
-    fecha DATE,
-    nombre VARCHAR(30),
-    asunto VARCHAR(40),
-    mensaje VARCHAR(500),
-    propietario VARCHAR(30),
-);
-
